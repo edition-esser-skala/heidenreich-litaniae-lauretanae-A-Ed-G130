@@ -97,6 +97,163 @@ KyrieBassoLyrics = \lyricmode {
 	bis. %43 finis
 }
 
+SanctaBassoNotes = {
+	\relative c {
+		\clef bass
+		\twofourtime \key f \major \time 2/4 \autoBeamOff \tempoSancta
+		R2*27 %27
+		\mvTr f4.\fE^\tutti f8
+		b4 as8 f
+		g f e! c %30
+		f8. g16 as8 f
+		b des es, g
+		as c des, f
+		g b c, e!
+		f([ g)] as([ f)] %35
+		b,4( h)
+		c r
+		R2
+		c'4. c8
+		f,4 e %40
+		f( e8) e
+		d([ c)] h a
+		g([ f')] e([ c)]
+		f4( g)
+		c, c'8 c %45
+		g4. g8
+		c4 c8 c
+		h4. gis8
+		a8. a16 a4
+		d8 d d d,16 d %50
+		e4. e8
+		a4 c,8 a
+		d h e4
+		a, r
+		R2*2 %56
+		a'4. a8
+		gis8. gis16 gis4
+		a a8 a
+		g!8. g16 g4 %60
+		f4. d8
+		h8. d16 h4
+		c8([ e)] g c
+		f,([ e)] d c
+		f([ g)] as4 %65
+		g8([ gis)] a e
+		f d g([ g,)]
+		c4 r
+		g' h8 g
+		c4. c,8 %70
+		b! b b b
+		a4 a8 a'
+		b4 a
+		g c,8 e
+		f([ a)] c([ f,)] %75
+		b4 g8 g
+		e([ c)] f([ a)]
+		b4( c8[ c,)]
+		f4 r
+		r8 as b c %80
+		des4.(-\parenthesize-> c8)
+		b g c4
+		f, r
+		r8 as b c
+		des4.(-\parenthesize-> c8) %85
+		b g c4
+		f, r
+		e2\p
+		f4. f8
+		b,2 %90
+		c4. c8
+		f4 a,
+		b( c)
+		f,8 r r4
+		r8 g'\f g g %95
+		f2
+		e8 e e g
+		f4( c'
+		c2)
+		f,4 r %100
+		R2
+		R\fermata \bar "|." %102 finis
+	}
+}
+
+SanctaBassoLyrics = \lyricmode {
+	Ma -- ter %28
+	Chri -- sti, ma --
+	ter di -- vi -- nae %30
+	gra -- ti -- ae, ma --
+	ter pu -- ris -- si --
+	ma, ma -- ter ca --
+	stis -- si -- ma, o --
+	ra pro %35
+	no --
+	bis,
+
+	vir -- go
+	po -- tens, %40
+	vir -- go
+	cle -- mens, o --
+	ra pro
+	no --
+	bis, vas spi -- %45
+	ri -- tu --
+	a -- le, vas
+	ho -- no --
+	ra -- bi -- le,
+	vas in -- si -- gne de -- %50
+	vo -- ti --
+	o -- nis, o --
+	ra pro no --
+	bis,
+
+	ro -- sa %57
+	my -- sti -- ca,
+	tur -- ris e --
+	bur -- ne -- a, %60
+	to -- mus
+	au -- re -- a,
+	o -- ra pro
+	no -- bis, o --
+	ra pro %65
+	no -- bis, o --
+	ra pro no --
+	bis,
+	ia -- nu -- a
+	coe -- li, %70
+	stel -- la ma -- tu --
+	ti -- na, o --
+	ra pro
+	no -- bis, o --
+	ra pro %75
+	no -- bis, o --
+	ra pro
+	no --
+	bis,
+	o -- ra pro %80
+	no --
+	bis, pro no --
+	bis,
+	o -- ra pro
+	no -- %85
+	bis, pro no --
+	bis,
+	o --
+	ra pro
+	no -- %90
+	bis, o --
+	ra pro
+	no --
+	bis,
+	o -- ra pro %95
+	no --
+	bis, o -- ra pro
+	no --
+
+	bis. %100 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

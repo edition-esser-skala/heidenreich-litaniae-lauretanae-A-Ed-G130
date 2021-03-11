@@ -46,3 +46,49 @@ KyrieClarinoII = {
 		c r r\fermata \bar "|." %44 finis
 	}
 }
+
+SanctaClarinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key f \major \time 2/4 \tempoSancta
+		R2*36 %36
+		c8\f g' e c
+		g'4 r8 g
+		c,4 c8 c
+		c4 c8 c16 c %40
+		c4 c
+		R2*3
+		c'4 c8 c %45
+		g4 r
+		c c8 c
+		e4 r
+		R2*2 %50
+		e,4 e8 e
+		e4 r
+		r e8 e
+		e4 r
+		R2*2 %56
+		\once \tieDashed e2~
+		e4 r
+		R2*3 %61
+		g8 g16 g g8 g
+		e4 r
+		c'2
+		c,8 c c4 %65
+		R2
+		r4 g'8 g
+		e g e c
+		g4 r
+		c c8 c %70
+		c4 r
+		R2*2
+		r4 c8 c
+		c4 r %75
+		R2
+		r8 c c4
+		r c8 c
+		c4 r
+		R2*22 %101
+		R2\fermata \bar "|." %102 finis
+	}
+}

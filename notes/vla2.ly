@@ -50,3 +50,112 @@ KyrieViolaII = {
 		c r r\fermata \bar "|." %44 finis
 	}
 }
+
+SanctaViolaII = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key f \major \time 2/4 \tempoSancta
+		r8 c\f c c
+		c4. c8
+		c4 b8 c
+		c4~ c8 r
+		r c\p c c %5
+		r c c c
+		f, g a r
+		r b' b, g'
+		r c, c c
+		c d f4 %10
+		e\fE d8 f
+		e16 e-! g-! e-! c8 r
+		r f,\p a f
+		r c[ e c]
+		f g a r %15
+		r b b' a
+		g f e c
+		f4 d
+		c8\mf e d h
+		c16 e-! g-! e-! c8 r %20
+		r e\p e e
+		f g a r
+		r b4 c8
+		b4 r8 d,
+		r c r b %25
+		a4\f c
+		c b8 g
+		f' g_\critnote as f
+		b f as f
+		g f e! c %30
+		f g as f
+		b,2(
+		as
+		g)
+		f8 g as f  %35
+		b4 h
+		c e8 e
+		d2
+		e
+		f8 c e c %40
+		f c e c
+		d c h a
+		g f e c'
+		f d g f
+		e4 e8 e %45
+		<d h>2
+		c4 e8 e
+		d4. d8
+		c4 c8 c
+		d2 %50
+		<d h>
+		c4 c8 c
+		d4 e8 e
+		c4 c8 c
+		d4 f8 d %55
+		e c d e
+		c16 c c c c c c c
+		h h h h h h h h
+		c c c c c c c c
+		cis cis cis cis cis cis cis cis %60
+		d d d d d d f f
+		<d h> q q q q q q q
+		c e e e e e e e
+		f8 e d c
+		c c c4 %65
+		h c8 e
+		f d g g,
+		c e e e
+		d h d4
+		c c8 c %70
+		e4 e
+		c8 c c c
+		d4 c8 a
+		g g' e c
+		f a c f, %75
+		b, b' g, g'
+		e c f a,
+		b g c c
+		f,16 f as as c c as as
+		f f as as b b c c %80
+		des4.-> c8
+		b g c c
+		f,32 f f f as[ as as as] c c c c as[ as as as]
+		f f f f as[ as as as] b b b b c[ c c c]
+		des4.-> c8 %85
+		b g c c
+		a!\p f' f f
+		e2
+		f
+		d %90
+		g,
+		\once \slurDashed f4( c'
+		d g,)
+		f8 a\f a a
+		g2 %95
+		a8[ c c c]
+		c2~
+		c~
+		c
+		c8 r r4 %100
+		a8 r a r
+		a2\fermata \bar "|." %102 finis
+	}
+}

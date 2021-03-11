@@ -108,6 +108,209 @@ KyrieTenoreLyrics = \lyricmode {
 	bis. %43 finis
 }
 
+SanctaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key f \major \time 2/4 \autoBeamOff \tempoSancta
+		R2*4 %4
+		\mvTr f2\pE^\solo %5
+		c4. b8
+		a8.([ b16)] c8 f
+		d4. b8
+		g4 c8 c
+		a4( h) %10
+		c r
+		R2
+		f4. f8
+		c4~ c16[ d] c([ b)]
+		\appoggiatura b a8. b16 c8 f, %15
+		d'4. c8
+		b([ a)] g g
+		a4( \afterGrace h) { a16[ h] }
+		c4 r
+		R2 %20
+		b!8 b b16([ d)] c([ b)]
+		\appoggiatura b a8.^\critnote b16 c8 c
+		d4. es8
+		d8.([ cis16)] d8 b
+		a[ c]~ c16[ a b g] %25
+		f4 r
+		R2
+		\mvTr c'4.\fE^\tutti c8
+		b4 c8 as
+		g g g c %30
+		c8. c16 c8 f
+		f f es8. es16
+		es4 des8 des
+		des des c8. c16
+		c4. c8 %35
+		des8 des d4
+		c r
+		d4. d8
+		c8.([ e!16)] e4
+		c4. c8 %40
+		c4 c
+		d d8 c
+		h4 c8 e
+		d f e([ d)]
+		e4 c8 c %45
+		h4. h8
+		c4 c8 c
+		e4. e8
+		e8. e16 e4
+		f8 f f f16 f %50
+		e4. e8
+		e4 e8 c
+		h h a([ gis)]
+		a4 r
+		R2*2 %56
+		c4. c8
+		h8. h16 h4
+		a a8 a
+		b!8. b16 b4 %60
+		a4. d8
+		d8. d16 d4
+		c4. c16 c
+		c4 c8 c
+		c4. c8 %65
+		h4 c8 c
+		d f e([ d)]
+		c4 r
+		h d8 h
+		c4 c %70
+		c8 c c c
+		c4 c8 c
+		b!4 c
+		d e8 c
+		c4. a8 %75
+		d4 d
+		c c8 c
+		d d c4
+		c r
+		r8 as b c %80
+		des4.(-> c8)
+		b g c4
+		f, r
+		r8 as b c
+		des4.(-> c8) %85
+		b g c4
+		f, r
+		c'2\p
+		c4. c8
+		d2 %90
+		c4. c8
+		c4 c
+		d( g,)
+		a8 r r4
+		r8 b\f b b %95
+		a4.( c8)
+		b b b b
+		a4( b
+		a b)
+		a r %100
+		R2
+		R\fermata \bar "|." %102 finis
+	}
+}
+
+SanctaTenoreLyrics = \lyricmode {
+	San -- %5
+	cta Ma --
+	ri -- a, o --
+	ra pro
+	no -- bis, pro
+	no -- %10
+	bis,
+
+	San -- cta
+	De -- i
+	Ge -- ni -- trix, o -- %15
+	ra pro
+	no -- bis, pro
+	no --
+	bis,
+	%20
+	San -- cta Vir -- go
+	vir -- gi -- num, o --
+	ra pro
+	no -- bis, pro
+	no -- %25
+	bis.
+
+	Ma -- ter
+	Chri -- sti, ma --
+	ter di -- vi -- nae %30
+	gra -- ti -- ae, ma --
+	ter a -- ma -- bi --
+	lis, ma -- ter
+	ad -- mi -- ra -- bi --
+	lis, o -- %35
+	ra pro no --
+	bis,
+	vir -- go
+	po -- tens,
+	vir -- go %40
+	cle -- mens,
+	vir -- go fi --
+	de -- lis, o --
+	ra pro no --
+	bis, vas spi -- %45
+	ri -- tu --
+	a -- le, vas
+	ho -- no --
+	ra -- bi -- le,
+	vas in -- si -- gne de -- %50
+	vo -- ti --
+	o -- nis, o --
+	ra pro no --
+	bis,
+
+	ro -- sa %57
+	my -- sti -- ca,
+	tur -- ris Da --
+	vi -- di -- ca, %60
+	to -- mus
+	au -- re -- a,
+	foe -- de -- ris
+	ar -- ca, o --
+	ra pro %65
+	no -- bis, o --
+	ra pro no --
+	bis,
+	ia -- nu -- a
+	coe -- li, %70
+	stel -- la ma -- tu --
+	ti -- na, o --
+	ra pro
+	no -- bis, o --
+	ra, o -- %75
+	ra pro
+	no -- bis, o --
+	ra pro no --
+	bis,
+	o -- ra pro %80
+	no --
+	bis, pro no --
+	bis,
+	o -- ra pro
+	no -- %85
+	bis, pro no --
+	bis,
+	o --
+	ra pro
+	no -- %90
+	bis, o --
+	ra pro
+	no --
+	bis,
+	o -- ra pro %95
+	no --
+	bis, o -- ra pro
+	no --
+
+	bis. %100 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

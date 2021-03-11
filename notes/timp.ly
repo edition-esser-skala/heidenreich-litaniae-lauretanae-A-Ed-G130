@@ -44,3 +44,38 @@ KyrieTimpani = {
 		c r r\fermata \bar "|.8" %44 finis
 	}
 }
+
+SanctaTimpani = {
+	\relative c {
+		\clef bass
+		\twofourtime \key f \major \time 2/4 \tempoSancta
+		R2*36 %36
+		c4\fE c8 c
+		g4 r8 g
+		c4 c8 c
+		c2~\startTrillSpan %40
+		c4 c8-!\stopTrillSpan r
+		R2*3
+		c4 c8 c %45
+		g4 r
+		R2*15 %61
+		g2\trill
+		c4 r
+		R2
+		c8 c c4 %65
+		R2
+		r4 g8 g
+		c4 c8 c
+		g4 r
+		c c8 c %70
+		c4 r
+		R2*2
+		r4 c8 c
+		c4 r %75
+		R2*2
+		r4 c8 c
+		c4 r
+		R2*22 %101
+		R2\fermata \bar "|." %102 finis
+	}
+}

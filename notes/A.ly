@@ -108,6 +108,163 @@ KyrieAltoLyrics = \lyricmode {
 	bis. %43 finis
 }
 
+SanctaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key f \major \time 2/4 \autoBeamOff \tempoSancta
+		R2*27 %27
+		\mvTr as'4.\f^\tuttiE as8
+		f4 f8 f
+		des des c e! %30
+		f8. f16 f8 as
+		b4. b8
+		as4 as8 as
+		g4. g8
+		f4 f %35
+		R2
+		g8 g16 g g8 g
+		g4 g8 g
+		g g g g
+		f4 g8 g %40
+		f4 g
+		a h8 c
+		d4 g,
+		a( g)
+		g e8 e %45
+		g4. g8
+		g4 g8 g
+		gis4. h?8
+		a8. a16 a4
+		a8 a a a16 a %50
+		gis4. gis8
+		a4 a8 a
+		f f e4
+		e r
+		R2*2 %56
+		e4. e8
+		e8. e16 e4
+		e e8 e
+		e8. e16 e4 %60
+		d8([ f a)] a
+		g8. g16 g4
+		g g8 g
+		f([ c')] c c
+		c4. c8 %65
+		d4 c8 g
+		a a g4
+		e r
+		g4. g16 g
+		g4. e8 %70
+		g g g g
+		f4 f8 f
+		f4. a8
+		g4 g8 g
+		f4. f8 %75
+		f4 g
+		g8([ e)] f f
+		f g f([ e)]
+		f4 r
+		r8 as b c %80
+		des4.(-> c8)
+		b g c4
+		f, r
+		r8 as b c
+		des4.(-\parenthesize-> c8) %85
+		b g c4
+		f, r
+		g2\p
+		f4. f8
+		f2 %90
+		g4. g8
+		a4 f
+		d( c)
+		c8 r r4
+		r8 e\f e e %95
+		f4.( a8)
+		g g g g
+		a4( g
+		a g)
+		a r %100
+		R2
+		R\fermata \bar "|." %102 finis
+	}
+}
+
+SanctaAltoLyrics = \lyricmode {
+	Ma -- ter %28
+	Chri -- sti, ma --
+	ter di -- vi -- nae %30
+	gra -- ti -- ae, o --
+	ra pro
+	no -- bis, o --
+	ra pro
+	no -- bis, %35
+
+	ma -- ter in -- vi -- o --
+	la -- ta, ma --
+	ter in -- te -- me --
+	ra -- ta, o -- %40
+	ra pro
+	no -- bis, o --
+	ra pro
+	no --
+	bis, vas spi -- %45
+	ri -- tu --
+	a -- le, vas
+	ho -- no --
+	ra -- bi -- le,
+	vas in -- si -- gne de -- %50
+	vo -- ti --
+	o -- nis, o --
+	ra pro no --
+	bis,
+
+	ro -- sa %57
+	my -- sti -- ca,
+	tur -- ris e --
+	bur -- ne -- a, %60
+	to -- mus
+	au -- re -- a,
+	o -- ra pro
+	no -- bis, o --
+	ra pro %65
+	no -- bis, o --
+	ra pro no --
+	bis,
+	ia -- nu -- a
+	coe -- li, %70
+	stel -- la ma -- tu --
+	ti -- na, o --
+	ra pro
+	no -- bis, o --
+	ra, o -- %75
+	ra pro
+	no -- bis, o --
+	ra pro no --
+	bis,
+	o -- ra pro %80
+	no --
+	bis, pro no --
+	bis,
+	o -- ra pro
+	no -- %85
+	bis, pro no --
+	bis,
+	o --
+	ra pro
+	no -- %90
+	bis, o --
+	ra pro
+	no --
+	bis,
+	o -- ra pro %95
+	no --
+	bis, o -- ra pro
+	no --
+
+	bis. %100 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

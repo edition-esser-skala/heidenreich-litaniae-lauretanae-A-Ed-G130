@@ -46,3 +46,66 @@ KyrieClarinettoII = {
 		e r r\fermata \bar "|." %44 finis
 	}
 }
+
+SanctaClarinettoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key f \major \time 2/4 \tempoSancta
+		R2*25 %25
+		r16 c'-!\f b-! a-! g-! b-! a-! g-!
+		\parOn f8-\parenthesize-! a-! g-! \parOff e-\parenthesize-!
+		f2~
+		f
+		R2*7 %36
+		e!4.\f c'8
+		d4. d8
+		c4 r8 c
+		c2~ %40
+		c
+		R2*3
+		c4 c8 c %45
+		h4 r
+		c c8 c
+		d4 r
+		c c8 c
+		d4 r %50
+		\once \slurDashed h2(
+		c4) r8 c
+		\once \slurDashed d4( c8 h)
+		a4 r
+		R2*2 %56
+		c2(
+		h4) r
+		c2(
+		e4) r %60
+		f2(
+		d4) r
+		r r8 c
+		c2~
+		c %65
+		h4 c
+		R2
+		e4 e8 e
+		g4 r
+		e e8 e %70
+		e4 r8 c
+		c4._\critnote f,8
+		f2
+		e4. g8
+		f4 r %75
+		R2
+		r8 e' f4
+		d a8 g
+		f4 r
+		R2*14 %93
+		a,16\f c a c a c a c
+		b c b c b c b c %95
+		a c a c a c a c
+		b c b c b c b c
+		a c a c b c b c
+		a c a c b c b c
+		a8 r r4 %100
+		R2
+		R\fermata \bar "|." %102 finis
+	}
+}

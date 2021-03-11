@@ -672,6 +672,7 @@ tocLabelLong = #(define-music-function
 
 
 tempoKyrie = \tempoMarkup "Allegro"
+tempoSancta = \tempoMarkup "Andante con allegretto"
 
 
 \include "notes/ob1.ly"

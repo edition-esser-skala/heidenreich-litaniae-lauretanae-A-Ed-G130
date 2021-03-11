@@ -46,3 +46,63 @@ KyrieCornoII = {
 		c r r\fermata \bar "|." %44 finis
 	}
 }
+
+SanctaCornoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key f \major \time 2/4 \tempoSancta
+		R2*10 %10
+		c4\f g'8 g
+		c,16 e-! g-! e-! c8 r
+		R2*6 %18
+		c4\mfE g'8 g
+		c,16 e-! g-! e-! c8 r %20
+		R2*5 %25
+		c2~\f
+		c4 r8 c
+		c2
+		R2*8 %36
+		e4 e8 e
+		\once \slurDashed g2(
+		c,4) r
+		c c8 c %40
+		c4 c
+		R2*3
+		c4 c8 c %45
+		g'4 r
+		e e8 e
+		e2
+		R2*2 %50
+		e4 e8 e
+		e4 r
+		r e8 e
+		e4 r
+		R2*2 %56
+		e2~
+		e4 r
+		R2*3 %61
+		g2(
+		e4) r
+		c'2~
+		c %65
+		R
+		r4 c8 g
+		e2(
+		g4) r
+		c,2~ %70
+		c4 r
+		R2*5 %76
+		r8 c' c4
+		r c,8 c
+		c4 r
+		R2*15 %94
+		c2\f %95
+		R
+		c~
+		c4 c-!
+		c-! c-!
+		c8-! r r4 %100
+		R2
+		R\fermata \bar "|." %102 finis
+	}
+}

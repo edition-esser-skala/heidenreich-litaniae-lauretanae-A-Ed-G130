@@ -50,3 +50,95 @@ KyrieFagottoII = {
 		c r r\fermata \bar "|." %44 finis
 	}
 }
+
+SanctaFagottoII = {
+	\relative c {
+		\clef bass
+		\twofourtime \key f \major \time 2/4 \tempoSancta
+		r8 c'\f c c
+		c2
+		c4 b8 g
+		f c f, r
+		R2*6 %10
+		c'4\f h8 g
+		c16 e-! g-! e-! c8 r
+		R2*6 %18
+		r8 c'\mf h g
+		c16 e,-! g-! e-! c8 r %20
+		R2*2
+		r8 f4\fp f8
+		f4 r8 d
+		f4( e) %25
+		f r
+		r8 a\f b g
+		f2
+		b4 as8 f
+		g f e!4 %30
+		f r
+		des'8. b16 g8. b16
+		c8. as16 f8. as16
+		b8. g16 e!8. g16
+		f8 g as f %35
+		b4 h
+		c r
+		h2
+		c4 r
+		f,8 c' e, c' %40
+		f, c' e, c'
+		d c h a
+		g f e c
+		f d g f
+		e2 %45
+		g4 r
+		c2
+		h
+		a4. c8
+		d4._\critnote d,8 %50
+		e h' gis e
+		a4 r8 a,
+		d h e e
+		a,4 r8 a
+		d4 f8 d %55
+		e c d e
+		a4 a8 a
+		gis2
+		a4 a8 a
+		g!2 %60
+		f4 f8 f
+		g2
+		c,4 r8 c'
+		f, e d c
+		f g as4 %65
+		g8 gis a e
+		f d g g,
+		c g' e c
+		g4 r8 g
+		c e g c, %70
+		b!4 r8 b'
+		a2
+		b4 a
+		r8 g c, e
+		f a c f, %75
+		b, b' g, g'
+		e c f a
+		b g c c,
+		f as c as
+		f as b c %80
+		des4.-> c8
+		b g c c,
+		f as c as
+		f as b c
+		des4.-> c8 %85
+		b g c c,
+		f4 r
+		R2*7 %94
+		r8 g\f g g %95
+		f4 r
+		r8 b b b
+		a4 b
+		a b
+		a8 r r4 %100
+		R2
+		R\fermata \bar "|." %102 finis
+	}
+}
