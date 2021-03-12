@@ -159,3 +159,76 @@ SanctaViolaI = {
 		c2\fermata \bar "|." %102 finis
 	}
 }
+
+SalusViolaI = {
+	\relative c' {
+		\clef alto
+		\key c \minor \time 3/4 \tempoSalus
+		c2\p es4
+		f2 d4\sfz
+		c2\p c4
+		\tuplet 3/2 4 { a8\f a a a a a a a a }
+		g4 g' r %5
+		\tuplet 3/2 4 { c,8 c c c c c c c c }
+		\tuplet 3/2 4 { \pa c c c \pd d d d c c c }
+		\tuplet 3/2 4 { c c c c c c c c c }
+		\pa c4 c \pd r
+		\tuplet 3/2 4 { g8 g g g g g g g g } %10
+		g4 g b!->
+		b8 es es es es es
+		f f f f f d
+		b b b b b b
+		b b b b b b %15
+		b4 b r
+		b8 b b b b b
+		g' g g g g g
+		f f f f f f
+		f f f f es es %20
+		f b, b b b b
+		es4 es, r
+		r8 b'\fp b b b b
+		r ces\fp ces ces ces ces
+		r c\fp c c c c %25
+		b4 b r
+		r b\pp b
+		r ges ges
+		r f f
+		es es'\p es %30
+		r f f
+		es~ es8 r r b
+		\pa as c b4 \pd b
+		\tuplet 3/2 4 { es8\f g g g g g d d d }
+		\tuplet 3/2 4 { es es es f f f es es es } %35
+		\tuplet 3/2 4 { es es es es es es es es es }
+		es4 es, r
+		b'8 b b b b b
+		as4. f'8 e f
+		c2 c4 %40
+		c, c'8 b as g
+		f\fp f' f f f f
+		d!\fp d d d d d
+		des\fp des des des des des
+		des\fp des c c h h %45
+		c\fp c c c c c
+		c r c\p r c r
+		c r c r c r
+		c4~ c8 r r c
+		b( c16 des) c4 b %50
+		as as' f\f
+		f8 f f f f f
+		f f f f f f
+		as4 g f
+		\once \slurDashed es!8.( f16) g4 g %55
+		g h g
+		g2 g4
+		g8 c, c c c c
+		c c c c c c
+		es es es es es es %60
+		c2 f,4
+		c2 es4\pp
+		f2 g4
+		as2\< c4
+		d\! d\p d %65
+		d2.\fermata \bar "||" %66 finis
+	}
+}

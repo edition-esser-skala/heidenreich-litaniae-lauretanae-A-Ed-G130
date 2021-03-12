@@ -148,3 +148,69 @@ SanctaFagottoI = {
 		R\fermata \bar "|." %102 finis
 	}
 }
+
+SalusFagottoI = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \tempoSalus
+		R2.*3
+		d'4\f d d
+		d2 r4 %5
+		c, es g
+		c g g
+		as r8 as as as
+		as8.( g16) g4 r
+		r g g %10
+		\pao g r b!
+		b8 g g g g g
+		as as as as as as
+		b^\critnote b b b b b
+		b4 r r8 b %15
+		\pa b4 b, \pd r
+		b'2 b4
+		c r8 c c c
+		c4 c r
+		as2 as4 %20
+		b2 b4
+		\appoggiatura as8 g4 r r
+		R2.*4 %26
+		ges2.~\pp
+		ges
+		f
+		\pao es4 r r %30
+		R2.*3
+		b'2\f b4
+		b2 b4 %35
+		as c as
+		es r r
+		e'2.(
+		f4) \pao r r
+		c2. %40
+		\pa c4 c, \pd r
+		c'\fp c c
+		d!2.\fp
+		des\fp
+		\once \override DynamicText.X-offset = #-4 des4(\fp c h) %45
+		c2\fp b4
+		as c\p c
+		c2.(
+		c4) \once \partCombineChords c8 r r4
+		R2. %50
+		f,4 as f\f
+		b, des b
+		f' as f8 c'
+		d! d d d d d
+		c8. d16 \once \partCombineChords es!4 r %55
+		r \pao g, g
+		\pa g g, \pd r
+		c'8 c c c c c
+		c c c c c c
+		c c c c c c %60
+		es2 d4
+		c r r
+		R2.
+		c2.\pp\<
+		d4\! d\p d %65
+		d2.\fermata \bar "||" %66 finis
+	}
+}

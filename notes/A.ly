@@ -265,6 +265,125 @@ SanctaAltoLyrics = \lyricmode {
 	bis. %100 finis
 }
 
+SalusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \autoBeamOff \tempoSalus
+		R2.*5 %5
+		\mvTr es2\fE^\tuttiE es4
+		g2 g4
+		f4. f8 f f
+		f8.([ es16)] es4 r
+		f( d) c %10
+		c8.([ h16)] h4 r
+		g'2 g8 g
+		as4 as2
+		as f8 f
+		g2 es8 es %15
+		es4 d r
+		r g2
+		g4 g8 g g g
+		f4 f r
+		f f f %20
+		f f4. f8
+		es4 es r
+		es2.\p
+		es4. es8 es4
+		es2 es4 %25
+		es8([ d)] d4 r
+		b\pp b b
+		a a a
+		b2.
+		b4 r r %30
+		R2.*3
+		g'2\fE as4
+		g( f) es %35
+		es2 es4
+		es es r
+		e e e
+		e8.([ f16)] f4 r
+		g g f %40
+		f e r
+		f\pE f f
+		d!2 d4
+		des4 des des
+		des c h %45
+		c2.
+		c4 r r
+		R2.*3 %50
+		r4 r f\fE
+		f4. f8 f f
+		f8. f16 f2
+		f4 g as
+		g g4. g8 %55
+		g2 g4
+		g g r
+		g g g
+		as2 as4
+		a a a %60
+		g2.
+		g4 r r
+		R2.*3 %65
+		R2.\fermata \bar "|." %66 finis
+	}
+}
+
+SalusAltoLyrics = \lyricmode {
+	Sa -- lus, %6
+	sa -- lus,
+	sa -- lus in -- fir --
+	mo -- rum,
+	in -- fir -- %10
+	mo -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, pro %15
+	no -- bis,
+	re --
+	fu -- gi -- um pec -- ca --
+	to -- rum,
+	o -- ra pro %20
+	no -- bis, pro
+	no -- bis,
+	re --
+	fu -- gi -- um
+	pec -- ca -- %25
+	to -- rum,
+	o -- ra pro
+	no -- bis, pro
+	no --
+	bis. %30
+
+	Con -- so -- %34
+	la -- trix %35
+	af -- fli --
+	cto -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %40
+	no -- bis,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, pro %45
+	no --
+	bis.
+
+	Au -- %51
+	xi -- li -- um, au --
+	xi -- li -- um
+	Chri -- sti -- a --
+	no -- rum, o -- %55
+	ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %60
+	no --
+	bis. %62 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

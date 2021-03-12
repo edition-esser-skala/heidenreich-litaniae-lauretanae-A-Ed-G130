@@ -265,6 +265,125 @@ SanctaSopranoLyrics = \lyricmode {
 	bis. %100 finis
 }
 
+SalusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \autoBeamOff \tempoSalus
+		R2.*5 %5
+		\mvTr g'2\fE^\tuttiE g4
+		es'( h) c
+		\appoggiatura b8 as4. as8 as as
+		as8.([ g16)] g4 r
+		d'( f,) es %10
+		es8.([ d16)] d4 r
+		b'!4.( c8) d es
+		es8.([^\critnote d16)] d2
+		f4.( d8) b as
+		g8.([ b16)] es4. g,8 %15
+		g4 f r
+		r b2
+		b4 g8 g c c
+		\appoggiatura b as4 as r
+		as as as %20
+		as f4. b8
+		\appoggiatura as g4 g r
+		ges2.\p
+		ges4. ges8 ges4
+		ges2 ges4 %25
+		ges8([ f)] f4 r
+		es\pp es es
+		es es es
+		es2( d4)
+		es r r %30
+		R2.*3
+		b'2\f b4
+		g'( d) es %35
+		c( es4.) c8
+		c([ b)] b4 r
+		des des des
+		des8.([ c16)] c4 r
+		g' b, as %40
+		as g r
+		as\pE as as
+		as2 as4
+		g g g
+		f f f %45
+		f2( e4)
+		f r r
+		R2.*3 %50
+		r4 r c'\f
+		es8. des16 des4. des8
+		des8. c16 c2
+		h4 h h
+		c8.([ d!16)] es!4. c8 %55
+		f2 es4
+		es d r
+		c c c
+		c2 c4
+		c c c %60
+		c2( h4)
+		c r r
+		R2.*3 %65
+		R2.\fermata \bar "||" %66 finis
+	}
+}
+
+SalusSopranoLyrics = \lyricmode {
+	Sa -- lus, %6
+	sa -- lus,
+	sa -- lus in -- fir --
+	mo -- rum,
+	in -- fir -- %10
+	mo -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, pro %15
+	no -- bis,
+	re --
+	fu -- gi -- um pec -- ca --
+	to -- rum,
+	o -- ra pro %20
+	no -- bis, pro
+	no -- bis,
+	re --
+	fu -- gi -- um
+	pec -- ca -- %25
+	to -- rum,
+	o -- ra pro
+	no -- bis, pro
+	no --
+	bis. %30
+
+	Con -- so -- %34
+	la -- trix %35
+	af -- fli --
+	cto -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %40
+	no -- bis,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, pro %45
+	no --
+	bis.
+
+	Au -- %51
+	xi -- li -- um, au --
+	xi -- li -- um
+	Chri -- sti -- a --
+	no -- rum, o -- %55
+	ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %60
+	no --
+	bis. %62 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

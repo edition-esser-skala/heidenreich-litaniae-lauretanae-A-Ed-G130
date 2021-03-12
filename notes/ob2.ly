@@ -138,3 +138,60 @@ SanctaOboeII = {
 		R\fermata \bar "|." %102 finis
 	}
 }
+
+SalusOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoSalus
+		R2.*3
+		c'2.\f
+		h4 g r %5
+		es' es es
+		es d c
+		r8 f r f4 f8
+		f8.( es16) es4 r
+		r d c %10
+		c8. h16 h4 d
+		es8 r r4 r
+		R2.*2
+		r4 r r8 es %15
+		es4( d) r
+		r8 es4 es8 des des
+		c4 r8 c c c
+		c4 c r
+		r8 c4 c8 ces4 %20
+		b r r
+		R2.*12 %33
+		b2\f d4
+		es b2 %35
+		r4 r r8 as
+		as g g4 r
+		des'2.~
+		des8. c16 c4 r
+		b2 as4 %40
+		as g r
+		c\fp c c
+		h2.\fp
+		b4\fp b b
+		b\fp as as~-> %45
+		as g2
+		f4 r r
+		R2.*3 %50
+		f2\pE f4\f
+		f2.
+		b8 as as2
+		f4 g as
+		g2 r4 %55
+		r h c
+		c h r
+		r8 c r c r c
+		r c r c r c
+		r es r es r es %60
+		g2 g,4
+		g r r
+		R2.
+		c2.\pp\<
+		h4\! h\p h %65
+		h2.\fermata \bar "||" %66 finis
+	}
+}

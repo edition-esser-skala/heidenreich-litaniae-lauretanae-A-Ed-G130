@@ -254,6 +254,125 @@ SanctaBassoLyrics = \lyricmode {
 	bis. %100 finis
 }
 
+SalusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \autoBeamOff \tempoSalus
+		R2.*5 %5
+		\mvTr c4(\fE^\tutti es) g
+		c( g) es
+		f( as8) as f f
+		c4 c r
+		g'( h,) c %10
+		g' g, r
+		es'2 es8 es
+		f4 f2
+		d d8 d
+		es2 g8 g %15
+		b4 b, r
+		r g'( f)
+		e e8 e e e
+		f4 f, r
+		f' f es! %20
+		d d4. d8
+		es4 es r
+		es2.\p
+		ces4. ces8 ces4
+		a2 a4 %25
+		b b r
+		es\pp es es
+		ces ces ces
+		b2.
+		es4 r r %30
+		R2.*3
+		es4(\fE g) f
+		es( as) g %35
+		as( c) as
+		es es r
+		g g g
+		as as r
+		e e f %40
+		c' c, r
+		f\pE f f
+		f2 f4
+		e e e
+		f f des %45
+		c2.
+		f,4 r r
+		R2.*3 %50
+		r4 r f'\fE
+		b,8. b16 des4 b
+		f'8. f16 as4 r
+		as g f
+		es!8.([ d!16)] c4 c' %55
+		h( g) c
+		g g, r
+		es' es es
+		f2 f4
+		fis fis fis %60
+		g2( g,4)
+		c r r
+		R2.*3 %65
+		R2.\fermata \bar "||" %66 finis
+	}
+}
+
+SalusBassoLyrics = \lyricmode {
+	Sa -- lus, %6
+	sa -- lus,
+	sa -- lus in -- fir --
+	mo -- rum,
+	in -- fir -- %10
+	mo -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, pro %15
+	no -- bis,
+	re --
+	fu -- gi -- um pec -- ca --
+	to -- rum,
+	o -- ra pro %20
+	no -- bis, pro
+	no -- bis,
+	re --
+	fu -- gi -- um
+	pec -- ca -- %25
+	to -- rum,
+	o -- ra pro
+	no -- bis, pro
+	no --
+	bis. %30
+
+	Con -- so -- %34
+	la -- trix %35
+	af -- fli --
+	cto -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %40
+	no -- bis,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, pro %45
+	no --
+	bis.
+
+	Au -- %51
+	xi -- li -- um, au --
+	xi -- li -- um
+	Chri -- sti -- a --
+	no -- rum, o -- %55
+	ra __ pro
+	no -- bis,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro %60
+	no --
+	bis. %62 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

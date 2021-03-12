@@ -160,6 +160,79 @@ SanctaViolinoI = {
 	}
 }
 
+SalusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoSalus
+		\tuplet 3/2 4 { c8\p c c c c c g' g g }
+		\tuplet 3/2 4 { as as as as as as g\sfz g g }
+		\tuplet 3/2 4 { f\p f f f f f es es es }
+		\tuplet 3/2 4 { d\f fis a d fis a d c a }
+		d8. h16 g4 r %5
+		\tuplet 3/2 4 { g,8 g g g g g g g g }
+		\tuplet 3/2 4 { es' es es h h h c c c }
+		\tuplet 3/2 4 { b( as) as-! as as as as as as }
+		as8.( g16) g8 g' f16( es d c)
+		\once \slurDashed d8( f,) f4 es %10
+		es8. d16 d8 g( b! d)
+		es b4 c8( d es)
+		es8. d16 d8 f16( es) d( es f g)
+		as8-! f4 d8-! b( as)
+		g8. b16 es8-! g16( f) es8 g, %15
+		g4 f16 b,8( d f b16)
+		b8( es,) r16 es8( g b des,16)
+		\once \slurDashed b'8( g) r16 c,8( e g c16)
+		b8( as) as16 as,8( c f as16)
+		as8( c,) r16 c8( f as ces,16) %20
+		as'8( b,) r16 f' f'-! es-! d( c b as)
+		as( g c b) b4 r
+		r8 ges\fp ges ges ges ges
+		r8 ges\fp ges ges ges ges
+		r8 ges\fp ges ges ges ges %25
+		ges( f) f4 r
+		r ges\pp ges
+		r es es
+		r es d
+		es8 \mvTr es'4\p-\dolce( f16 g! f es d c) %30
+		c8( b) r b4( \grace d16 c16 b)
+		b8 b'4( as16 g) f( es g es)
+		\appoggiatura d c8 b16 as g4 f
+		\tuplet 3/2 4 { es8\f b' b b b b b b b }
+		\tuplet 3/2 4 { g' g g d d d es es es } %35
+		\tuplet 3/2 4 { c c c es es es es c c }
+		c( b) b4 r
+		des8 des des des des des
+		des8. c16 c8 c4 c8
+		g' g b,([ g' as, f')] %40
+		as,8. as16 g4 r
+		as8\fp as as as as as
+		as\fp as as as as as
+		g\fp  g g g g g
+		f\fp f f f f f %45
+		f\fp f f f e e
+		f4 r8 \mvTr f'16(\pE-\dolce g \grace b as8 g16 f)
+		f4( e8) g16 as \appoggiatura c b8 as16 g
+		\once \slurDashed g4( f8) f16( g) as( e) f( c)
+		\appoggiatura es des?8( c16 b) as4 g %50
+		f8 c' c c c(\f f)
+		es( des) des des des des
+		des( c) c c c c
+		<h d,!> <h d,> q q q q
+		c8. d16 es!8 es es( d16 c) %55
+		f8 f f f es es
+		es4 d4. \once \slurDashed c16( d)
+		c fis( g fis g fis g8) c, r
+		c16 g'( as g as g as8) c, r
+		r16 h' c( h c h c d) es4 %60
+		r8 g,[-! g-! g]-! h,8.( a?32 h)
+		c8 c,\pp c c c c
+		c c c c c c
+		\once \hairpinDashed c\< d es e f fis
+		g4\! g\p g %65
+		g2.\fermata \bar "||" %66 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

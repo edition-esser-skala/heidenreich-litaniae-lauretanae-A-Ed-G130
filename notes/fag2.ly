@@ -142,3 +142,69 @@ SanctaFagottoII = {
 		R\fermata \bar "|." %102 finis
 	}
 }
+
+SalusFagottoII = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \tempoSalus
+		R2.*3
+		fis4\f fis fis
+		g h r %5
+		c, es g
+		c g es
+		f r8 f f f
+		f8.( es16) es4 r
+		r h c %10
+		g' r as!
+		g8 es es es es es
+		f f f f f f
+		d d d d d d
+		es4 r r8 g %15
+		b4 b, r
+		g g' f
+		g r8 g g g
+		f4 f r
+		f2 es4 %20
+		d2.
+		es4 r r
+		R2.*4 %26
+		\once \tieDashed es2.~\pp
+		es~
+		es2 d4
+		es r r %30
+		R2.*3
+		es4\f g f
+		es as g %35
+		as c as
+		es r r
+		\once \slurDashed g2.(
+		as4) as, r
+		e' c f %40
+		c' c, r
+		f\fp f f
+		f2.\fp
+		e\fp
+		f2\fp des4-> %45
+		c2\fp c4
+		f f\p f
+		g2.(
+		as4) as,8 r r4
+		R2. %50
+		f'4 as f\f
+		b, des b
+		f' as f
+		as g f
+		es!8. d!16 c4 r %55
+		r g' c,
+		g' g, r
+		g'8 g g g g g
+		as as as as as as
+		a a a a a a %60
+		g2 f4
+		es r r
+		R2.
+		as\pp\<
+		g4\! g\p g %65
+		g2.\fermata \bar "||" %66 finis
+	}
+}
