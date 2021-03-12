@@ -302,3 +302,35 @@ ReginaViolinoII = {
 		c4 r r\fermata \bar "|." %63 finis
 	}
 }
+
+AgnusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnus
+		a'16-!\f a'( e c) a( e c) a'-! gis-! f!( d h) gis( d' gis h)
+		d-! h'( gis f!) d( h gis f) e( g b cis e g b cis,)
+		d a'( f d a f d) d' \slurDashed h( gis f d) h( d gis h) \slurSolid
+		a a' e c a e c a' b b' b, b g' e c b
+		a f' c a g b d g, f c' a f e g c, e %5
+		\tuplet 6/4 4 { a,\pp a a a a a a a a a a a a a a a a a a a a a a a }
+		\tuplet 6/4 4 { g g g g g g g g g g g g } as\f f'' c as f c' as f
+		e! b'' g e! des b g e! des g' e! des b g e! g
+		a! fis' es c a fis c' a b b' f des b f' des b
+		g! des' e! g b g e g as f c as \once \slurDashed f( c) f-! f-! %10
+		f( des) f-! f-! f( d) f-! f-! e!-! c'-! g-! e-! c8 r
+		r16 es\p es es r c c c r c c c c c c c
+		r es es es r h! h h \tuplet 6/4 4 { c\pp c c c c c c c c c c c }
+		\tuplet 6/4 4 { c c c c c c c c c c c c c c c c c c c c c h h h }
+		c32\f c'( h c d c h c) e!( d c h a g f e) g( f e f e f e f) f( g a b c d e f) %15
+		e( d cis d g f e d) c?( h a g fis g fis g) e( c d e f g a h) c( h a g f e d c)
+		fis( d e fis g a h cis ) d( e fis g a fis g a) h( g fis e d c h a) g( a h c d e fis g)
+		h( g fis g a g fis g) g( f e d c h a g) c( h c d e d c h) c( h a g f e d c)
+		d( e f e d e f e) d( e f g a h c d) c( d e fis g fis g fis) g( e d c h c d c)
+		h( c d c h a g f!) e( d c h a h a h) c8\pp r \once \slurDashed g4( %20
+		as b) c32\ff c' c c c c c c des des des des des des des des
+		c c c c c c c c es es es es es es es es r16 e\p e e r e e e
+		r d, d d r d d d c4 r
+		r2 r4 c8\pp c c4 h c c8\ff c %25
+		c1\fermata \bar "|." %26 FINIS
+	}
+}

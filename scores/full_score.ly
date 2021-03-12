@@ -280,98 +280,192 @@
 	% 		\midi { \tempo 4 = 75 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "4"
+	% 		title = "R E G I N A   A N G E L O R U M"
+	% 	}
+	% 	\tocSection "4" "Regina Angelorum"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+	% 					\set Staff.soloText = \markup \remark \medium "ob 1"
+	% 					\partCombine \ReginaOboeI \ReginaOboeII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cl" "1, 2" }
+	% 					\set Staff.soloText = \markup \remark \medium "cl 1"
+	% 					\partCombine \ReginaClarinettoI \ReginaClarinettoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+	% 					\set Staff.soloText = \markup \remark \medium "fag 1"
+	% 					\partCombine \ReginaFagottoI \ReginaFagottoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
+	% 					\partCombine \ReginaCornoI \ReginaCornoII
+	% 				>>
+	% 				\new Staff <<
+	% 					\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+	% 					\partCombine \ReginaClarinoI \ReginaClarinoII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				\ReginaTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\ReginaViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\ReginaViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
+	% 					\partCombine \ReginaViolaI \ReginaViolaII
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \ReginaSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \ReginaSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \ReginaAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \ReginaAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \ReginaTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \ReginaTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \ReginaBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \ReginaBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup \center-column { "org" "b" }
+	% 					% \transpose c c,
+	% 					\ReginaOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \ReginaBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 120 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "4"
-			title = "R E G I N A   A N G E L O R U M"
+			number = "5"
+			title = "A G N U S   D E I"
 		}
-		\tocSection "4" "Regina Angelorum"
+		\tocSection "5" "Agnus Dei"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
 						\set Staff.soloText = \markup \remark \medium "ob 1"
-						\partCombine \ReginaOboeI \ReginaOboeII
+						\partCombine \AgnusOboeI \AgnusOboeII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "cl" "1, 2" }
 						\set Staff.soloText = \markup \remark \medium "cl 1"
-						\partCombine \ReginaClarinettoI \ReginaClarinettoII
+						\partCombine \AgnusClarinettoI \AgnusClarinettoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
 						\set Staff.soloText = \markup \remark \medium "fag 1"
-						\partCombine \ReginaFagottoI \ReginaFagottoII
+						\partCombine \AgnusFagottoI \AgnusFagottoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
-						\partCombine \ReginaCornoI \ReginaCornoII
+						\partCombine \AgnusCornoI \AgnusCornoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-						\partCombine \ReginaClarinoI \ReginaClarinoII
+						\partCombine \AgnusClarinoI \AgnusClarinoII
 					>>
 				>>
 				\new Staff {
 					\set Staff.instrumentName = "timp"
-					\ReginaTimpani
+					\AgnusTimpani
 				}
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\ReginaViolinoI
+							\AgnusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\ReginaViolinoII
+							\AgnusViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "vla" "1, 2" }
-						\partCombine \ReginaViolaI \ReginaViolaII
+						\partCombine \AgnusViolaI \AgnusViolaII
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \ReginaSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \AgnusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \ReginaSopranoLyrics
+					\new Lyrics \lyricsto Soprano \AgnusSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \ReginaAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \AgnusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \ReginaAltoLyrics
+					\new Lyrics \lyricsto Alto \AgnusAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \ReginaTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \AgnusTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \ReginaTenoreLyrics
+					\new Lyrics \lyricsto Tenore \AgnusTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \ReginaBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \AgnusBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \ReginaBassoLyrics
+					\new Lyrics \lyricsto Basso \AgnusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup \center-column { "org" "b" }
 						% \transpose c c,
-						\ReginaOrgano
+						\AgnusOrgano
 					}
 				>>
-				\new FiguredBass { \ReginaBassFigures }
+				\new FiguredBass { \AgnusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 45 }
 		}
 	}
 }

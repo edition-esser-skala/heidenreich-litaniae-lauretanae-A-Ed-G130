@@ -466,6 +466,66 @@ ReginaSopranoLyrics = \lyricmode {
 	bis. %60 finis
 }
 
+AgnusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnus \autoBeamOff
+		\mvTr a'4.\fE^\tutti a8 gis4 gis8. h16
+		d4 d8 d cis4 cis
+		r8 d d d h4 h
+		r8 a4 a8 b4 b
+		a8 a g g f4( e8) e %5
+		f4 r r2
+		r c'4.\f c8
+		b4 b8 b b4 b8 b
+		a!4 a r8 b b b
+		des4 des8 des c!4 c %10
+		des( d) c r
+		c(\p g) as g8 fis
+		g4. g8 c,4 r
+		R1
+		g'4.\f c8 a4 a8 a %15
+		g4 g8 g e'4 e8 e
+		c4 c8 c h4 h8 h
+		d4. d8 c4 c
+		a4. f8 e4. e8
+		d2 c4 r %20
+		r2 f'4\ff e!
+		f fis g2(\p
+		h,!) c4 e,8\pp e
+		d d d4 c r
+		R1 %25
+		R\fermata \bar "|." %26 FINIS
+	}
+}
+
+AgnusSopranoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta,
+	pec -- ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis, Do -- mi -- %5
+	ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di, pec -- ca -- ta %10
+	mun -- di:
+	Ex -- au -- di nos,
+	Do -- mi -- ne.
+
+	A -- gnus De -- i, qui %15
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta, pec --
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re
+	no -- bis, %20
+	mi -- se --
+	re -- re no --
+	bis, mi -- se --
+	re -- re no -- bis. %24 FINIS
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

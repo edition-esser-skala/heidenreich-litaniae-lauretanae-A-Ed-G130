@@ -279,3 +279,36 @@ ReginaFagottoI = {
 		c r r\fermata \bar "|." %63 finis
 	}
 }
+
+AgnusFagottoI = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnus
+		r8 e'\f e e r d d d
+		r d d d r e e e
+		r d d d r h h h
+		r c c c r b b b
+		c4 b a g8 b %5
+		a1\pp
+		g2 \pao f4\f r
+		r8 des' des des r b b b
+		r a! a a r b b b
+		r g! g g r \pa f f f \pd %10
+		f4 g g r16 c-! g-! e!-!
+		c4\p r r es'~
+		es d \pao c r
+		R1
+		c,16\f e g c c, e g c c, f a c c, f a c %15
+		h, d g h h, d g h c, e g c c, e g c
+		a, d fis a a, d fis a g, h d g g, h d g
+		f,! h d f f, h d f e, g c e e, g c e
+		f, a d f f, a d f g, c e g g, c e g
+		g, h d g g, h d g c,4\pp g'( %20
+		as b) c16\ff c c c b b b b
+		\pa as as as as \pd c c c c \pa c g'(\p e! c g e c e)
+		f2( e4) a\pp
+		a g8 f \pd e4 r
+		r2 r4 g8\ff g %25
+		g1\fermata \bar "|." %26 FINIS
+	}
+}

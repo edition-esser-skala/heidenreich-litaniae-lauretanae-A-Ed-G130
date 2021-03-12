@@ -302,3 +302,36 @@ ReginaViolaI = {
 		c r r\fermata \bar "|." %63 finis
 	}
 }
+
+AgnusViolaI = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoAgnus
+		e16\f e8 e e e16 d d8 d d d16~
+		d d8 d d d16 e e8 e e e16
+		d d8 d d d16 f f8 f f f16
+		e e8 e e e16 f8 f g g
+		f f d d c c b b %5
+		f\pp a f cis d f d c'
+		d[ d c b] as16\f as'8 as as as16
+		b b8 b b b16 g g8 g g g16
+		fis fis8 fis fis fis16 f f8 f f f16
+		g! g8 g g g16 f[ f8 f f f16] %10
+		des8 des d d c4 r16 c-! g-! e!-!
+		r c'\p c c r c c c r f f f es es es es
+		\pa r c c c \pd r \pa d d d \pd c8\pp e c gis
+		a c a g a4 \pao g
+		c16\f[ <e g,> q q] q q q q c c c c c c c c %15
+		d d d d d d d d <e g,> q q q q q q q
+		<c d> q q q q q q q <h d> q q q q q q q
+		q q q q q q q q c c c c c c c c
+		c c c c c c f f e e e e e e e e
+		d d d d d d d d c4\pp e,( %20
+		f g) \mvDll as16\ff[ c' c c] b b b b
+		c c c c c c c c r c\p c c r c c c
+		r f, f f r f f f e4 r
+		r2 r4 a,8\pp a
+		a4 g8 f e4 e8\ff e %25
+		e1\fermata \bar "|." %26 FINIS
+	}
+}

@@ -590,13 +590,64 @@ ReginaBassFigures = \figuremode {
 	r %63 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnus
+		\mvTr a'8\fE-\tutti a a a h h h h
+		gis gis gis gis g g g g
+		f f f f d d d d
+		c c c c d d e e
+		f f b, b c c c c %5
+		f\pp a f cis d f d a
+		b h c c \mvTr f\fE-\tutti f f f
+		g g g g e! e e e
+		es es es es des des des des
+		b b b b as as as as %10
+		b b h h c4 r16 c'-! g-! e!-!
+		c4\p es f g8 as
+		g r g, r c\pp e! c gis
+		a c a e f fis g4
+		\mvTr c8\fE-\tutti c c c c c c c %15
+		h h h h c c c c
+		a' a a a g g g g
+		f! f f f e e e e
+		f f f f g g g g
+		g, g g g c4\pp e-! %20
+		f-! g-! \mvTr as16\ffE-\tutti as as as g g g g
+		as as as as as as as as g8\p r g r
+		g, r g r c4 r
+		r2 r4 \mvTrr a8\pp-\markup \remark "Ped." a
+		f4 g c, c'8\ff c %25
+		c1\fermata \bar "|." %26 FINIS
+	}
+}
+
+AgnusBassFigures = \figuremode {
+	r2 <6\\ 5>
+	<7 5> <6 4+ _->
+	<6> <6 4+ 3>
+	<6> <6->4 <6 5->
+	r <6> <6 4> <5 3> %5
+	<8 3>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6 5> <\t \t> <5 4> <\t 3> <_->2
+	<6! [5-] _-> <7- 5->
+	<4! 2+> <6- _!>
+	<6! 4! [_-]> <6 _!> %10
+	<5 _->4 <6 5 [_!]> <_!>2
+	<_->4 <6> <5 _-> <8 6->8 <6\\ 5->
+	<6- 4>4 <5 _!> <8 _!>2 \bassFigureExtendersOn
+	q4. q8 \bassFigureExtendersOff <6 5> <\t \t> <5 4> <\t 3>
+	<_!>2 <6 4> %15
+	<6 5>1
+	<6\\ 4 3>
+	<4 2>2 <6>
+	q <6 4>
+	<7 5>1 %20
+	r2 <6>4 <6! [5-] _->
+	<6> <6\\ 5-> <8 6!> <\t \t>
+	<7 _!> <\t \t>2.
+	r1
+	r2. <5 3>4 \bassFigureExtendersOn %25
+	q1 \bassFigureExtendersOff %26 FINIS
+}

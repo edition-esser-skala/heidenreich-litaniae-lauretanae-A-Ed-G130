@@ -302,3 +302,36 @@ ReginaViolaII = {
 		c r r\fermata \bar "|." %63 finis
 	}
 }
+
+AgnusViolaII = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoAgnus
+		c16\f c8 c c c16 h h8 h h h16~
+		h h8 h h h16 b b8 b b b16
+		a a8 a a a16 gis h8 h h h16
+		c c8 c c c16 d8 d c c
+		c c b b a a g g %5
+		f\pp a f cis d f d a'
+		b h c c, f16\f f'8 f f f16
+		des des8 des des des16 des des8 des des des16
+		c c8 c c c16 b b8 b b b16
+		e! e8 e e e16 f c8 c c c16 %10
+		b8 b g g g4 r16 c-! g-! e!-!
+		r c\p c c r es es es r f f f g8 as
+		g r r16 <f g> q q c'8\pp e! c gis
+		a c a e f fis g4
+		c16\f c c c c c c c a a a a a a a a %15
+		g g g g g g g g c c c c c c c c
+		a a a a a a a a g g g g g g g g
+		g g g g g g g g g g g g g g g g
+		a a a a a a d d c c c c c c c c
+		h h h h <g f> q q q <e g>4\pp g( %20
+		as b) c16\ff c' c c b b b b
+		c c c c c c c c r c\p c c r c c c
+		r f, f f r f f f e4 r
+		r2 r4 a,8\pp a
+		a4 <g f> <g e>_\critnote g8\ff g %25
+		g1\fermata \bar "|." %26 FINIS
+	}
+}

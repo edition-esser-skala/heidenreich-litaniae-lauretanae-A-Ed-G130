@@ -146,3 +146,26 @@ ReginaCornoI = {
 		c r r\fermata \bar "|." %63 finis
 	}
 }
+
+AgnusCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnus
+		R1*3
+		r2 r4 c'\f
+		c r c2 %5
+		c4 r r2
+		R1*8 %14
+		c4\f c8 c c2 %15
+		d4 d8 d c2
+		d8 d d d d4 r
+		r8 d d d c2
+		r r8 e e e
+		r d d d c4\pp c %20
+		c2 c16\ff c c c c c c c
+		c c c c c c c c \pao g8 r r4
+		R1*2
+		r2 r4 c8\ff c %25
+		c1\fermata \bar "|." %26 FINIS
+	}
+}

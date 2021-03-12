@@ -466,6 +466,66 @@ ReginaAltoLyrics = \lyricmode {
 	bis. %60 finis
 }
 
+AgnusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnus \autoBeamOff
+		\mvTr e4.\fE^\tuttiE a8 f4 f8 f
+		f4 f8 f e4 e
+		r8 f f f f4 f
+		r8 e4 e8 f4 g
+		f8 f d d c4. c8 %5
+		c4 r r2
+		r as'4.\f as8
+		e!4 e8 e g4 g8 g
+		fis4 fis r8 f f f
+		g!4 g8 g f4 f %10
+		f( g) g r
+		es(\p g) f es8 es
+		es4( d8) d c4 r
+		R1
+		e!4.\fE e8 f4 f8 f %15
+		g4 g8 g g4 g8 g
+		fis4 fis8 fis g4 g8 g
+		g4. g8 g4 g
+		f4. d8 c4. c8
+		h2 c4 r %20
+		r2 c'4\ffE b
+		c c c2\p(
+		f,) e4 c8\pp c
+		c c h4 c r
+		R1 %25
+		R\fermata \bar "|." %26 FINIS
+	}
+}
+
+AgnusAltoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta,
+	pec -- ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis, Do -- mi -- %5
+	ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di, pec -- ca -- ta %10
+	mun -- di:
+	Ex -- au -- di nos,
+	Do -- mi -- ne.
+
+	A -- gnus De -- i, qui %15
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta, pec --
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re
+	no -- bis, %20
+	mi -- se --
+	re -- re no --
+	bis, mi -- se --
+	re -- re no -- bis. %24 FINIS
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -544,6 +544,66 @@ ReginaTenoreLyrics = \lyricmode {
 	bis. %60 finis
 }
 
+AgnusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \tempoAgnus \autoBeamOff
+		\mvTr c4.\fE^\tutti c8 d4 d8 d
+		h4 h8 h b4 b
+		r8 a a a gis4 gis
+		r8 e'4 e8 d4 c
+		c8 c d d a4( g8) g %5
+		f4 r r2
+		r f'4.\f f8
+		des4 des8 des des4 des8 des
+		c4 c r8 f! f f
+		e!4 e8 e f4 f %10
+		f2 e!4 r
+		c\p c c4. c8
+		c4( h!8) h c4 r
+		R1
+		c4.\f c8 c4 c8 c %15
+		d4 d8 d c4 c8 c
+		d4 d8 d d4^\critnote d8 d
+		h4. h8 c4 c
+		d4. a8 g4. g8
+		f2 e4 r %20
+		r2 c'4\ffE des
+		c es e2\p(
+		d) c4 a8\pp a
+		a a g([ f)] e4 r
+		R1 %25
+		R\fermata \bar "|." %26 FINIS
+	}
+}
+
+AgnusTenoreLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta,
+	pec -- ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis, Do -- mi -- %5
+	ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di, pec -- ca -- ta %10
+	mun -- di:
+	Ex -- au -- di nos,
+	Do -- mi -- ne.
+
+	A -- gnus De -- i, qui %15
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta, pec --
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re
+	no -- bis, %20
+	mi -- se --
+	re -- re no --
+	bis, mi -- se --
+	re -- re no -- bis. %24 FINIS
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

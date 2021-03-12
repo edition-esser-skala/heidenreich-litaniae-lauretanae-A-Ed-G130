@@ -244,3 +244,36 @@ ReginaOboeI = {
 		c-! r r\fermata \bar "|." %63 finis
 	}
 }
+
+AgnusOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnus
+		r8 a''\f a a gis2
+		r8 h h h cis2
+		r8 a a a gis2
+		r8 a a a b2
+		a4 g f e %5
+		f r r2
+		r r8 f\f f f
+		e!2 r8 g g g
+		a!2 r8 b b b
+		g!2 r8 f! f f %10
+		f2 e!4 r
+		c\pE g as g8 fis
+		g2 e!4 r
+		R1
+		c''4.\f c8 a4 a8 a %15
+		g4 g8 g e4 e8 e
+		fis4. fis8 \pa g8. g,16 g8 \pd r
+		r d' d d \pa c4. g8
+		a4 d8 f \pd r e e e
+		r d d d \pao c4 r %20
+		r2 f4\ffE e!
+		f fis g8 r r4
+		\pa r16 d'(\pE h g f d h g) c4 \pd e8\pp e
+		d2 \pao c4 r
+		r2 r4 c8\ff c %25
+		c1\fermata \bar "|." %26 FINIS
+	}
+}

@@ -112,3 +112,25 @@ ReginaTimpani = {
 		c r r\fermata \bar "|." %63 finis
 	}
 }
+
+AgnusTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnus
+		R1*3
+		r2 r4 c8\fE c
+		c4 r c8 c c c %5
+		c4 r r2
+		R1*8 %14
+		c4\f c8 c c4 c %15
+		g8 g g g c2
+		R1*2
+		r2 r8 g g g
+		r g g g c4 r %20
+		r2 c16\ff c c c c c c c
+		c2\trillE g8 r r4
+		R1*2
+		r2 r4 c8\ff c %25
+		c1_\trillE\fermata \bar "|." %26 FINIS
+	}
+}

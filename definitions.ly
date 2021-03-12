@@ -675,6 +675,7 @@ tempoKyrie = \tempoMarkup "Allegro"
 tempoSancta = \tempoMarkup "Andante con allegretto"
 tempoSalus = \tempoMarkup "Andante con poco adagio"
 tempoRegina = \tempoMarkup "Allegro molto"
+tempoAgnus = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"

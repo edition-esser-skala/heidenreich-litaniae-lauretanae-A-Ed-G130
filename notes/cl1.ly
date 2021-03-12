@@ -170,3 +170,31 @@ ReginaClarinettoI = {
 		c-! r r\fermata \bar "|." %63 finis
 	}
 }
+
+AgnusClarinettoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnus
+		r8 c'\f c c d2
+		r8 d d d cis2
+		r8 d d d h2
+		r8 a a a b2
+		a4( g f e) %5
+		f r r2
+		R1*6 %12
+		r2 e'~\ppE
+		e d
+		e4\f e8 e f2 %15
+		d4 d8 d e2
+		d4 d8 d d2
+		r8 d d d c4. g'8
+		a4. f8 r e e e
+		r h h h c4\pp c %20
+		c2 f4(\ffE e
+		f fis g8) r r4
+		\pa r16 \mvTr d(\p-\dolce h g f d h g) c4 \pd r
+		R1
+		r2 r4 c'8\ffE c %25
+		c1\fermata \bar "|." %26 FINIS
+	}
+}

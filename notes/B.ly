@@ -455,6 +455,66 @@ ReginaBassoLyrics = \lyricmode {
 	bis. %60 finis
 }
 
+AgnusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnus \autoBeamOff
+		\mvTr a'4.\fE^\tuttiE a8 h4 h8 h
+		gis4 gis8 gis g4 g
+		r8 f f f d4 d
+		r8 c4 c8 d4 e
+		f8 f b, b c4. c8 %5
+		f4 r r2
+		r f4.\f f8
+		g4 g8 g e!4 e8 e
+		es4 es r8 des des des
+		b4 b8 b as4 as %10
+		b( h) c r
+		c(\p es) f g8 as
+		g4( g,8) g c4 r
+		R1
+		c4.\f c8 c4 c8 c %15
+		h4 h8 h c4 c8 c
+		a'4 a8 a g4 g8 g
+		f!4. f8 e4 e
+		f4. f8 g4.^\critnote g8
+		g,2 c4 r %20
+		r2 as'4\ffE g
+		as as g2(\p
+		g,) c4 a'8\pp a
+		f f g4 c, r
+		R1 %25
+		R\fermata \bar "|." %26 FINIS
+	}
+}
+
+AgnusBassoLyrics = \lyricmode {
+	A -- gnus De -- i, qui
+	tol -- lis pec -- ca -- ta,
+	pec -- ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis, Do -- mi -- %5
+	ne.
+	A -- gnus
+	De -- i, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- di, pec -- ca -- ta %10
+	mun -- di:
+	Ex -- au -- di nos,
+	Do -- mi -- ne.
+
+	A -- gnus De -- i, qui %15
+	tol -- lis, qui tol -- lis pec --
+	ca -- ta, pec -- ca -- ta, pec --
+	ca -- ta mun -- di:
+	Mi -- se -- re -- re
+	no -- bis, %20
+	mi -- se --
+	re -- re no --
+	bis, mi -- se --
+	re -- re no -- bis. %24 FINIS
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
