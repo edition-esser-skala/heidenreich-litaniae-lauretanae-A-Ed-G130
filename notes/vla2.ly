@@ -232,3 +232,73 @@ SalusViolaII = {
 		g2.\fermata \bar "||" %66 finis
 	}
 }
+
+ReginaViolaII = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 3/4 \tempoRegina
+		c,8\f c' c c c c
+		e e e d c h
+		a a a a a a
+		c c c h a g
+		f f d d fis fis %5
+		g4 g' r
+		fis,2.(\p
+		g
+		fis
+		g2) r4 %10
+		<h d>8\f q q q q q
+		q q q q q q
+		q q q q q q
+		q q q q q q
+		c c c c e e %15
+		f f f f f d
+		c d c d c d
+		c h a h c a
+		d h e d e e,
+		a4 r e' %20
+		e r e
+		a, r c
+		d r d
+		h2 c4
+		d e e, %25
+		r8 a\p a a a a
+		r gis gis gis gis gis
+		r a a a a a
+		r gis gis gis gis gis
+		r a a a c c %30
+		r d d d d d
+		r b b b b b
+		c2 c4
+		c2 c4
+		r8 a\sfp b a g f %35
+		e2 e'4
+		f2.
+		r8 c c c c c
+		r c c c c c
+		c4\f r a %40
+		g r g
+		a r c
+		d r b
+		c b a
+		b c c %45
+		f8-! a-! g-! f-! e-! d-!
+		c e4 e e8
+		c c4 c c8
+		g' g4 g g8
+		e4 d c %50
+		g' g, r
+		fis'8 fis fis fis fis fis
+		g g g g g g
+		fis fis fis fis fis fis
+		g g g g g g %55
+		f!16 f f f f f f f f f f f
+		g g g g g g g g g g g g
+		g g g g h, h h h c c c c
+		f8( g16 a) g4 f
+		e r r %60
+		c g e
+		c c c
+		c r r\fermata \bar "|." %63 finis
+	}
+}

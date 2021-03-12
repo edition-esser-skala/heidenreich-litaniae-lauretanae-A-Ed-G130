@@ -106,3 +106,43 @@ SanctaCornoI = {
 		R\fermata \bar "|." %102 finis
 	}
 }
+
+ReginaCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		c'4\f c c
+		e r r
+		R2.
+		c4 r r
+		R2. %5
+		g4 g r
+		R2.*4 %10
+		d'4\f d d
+		d2.
+		R2.*2
+		e4 e e %15
+		\pao d2 r4
+		R2.*2
+		r4 e e
+		e r r %20
+		R2.*26 %46
+		c4\f c c
+		c2.
+		d4 d d
+		c d e %50
+		e d r
+		\pa d d d \pd
+		d r r
+		\pa d d d \pd
+		d r r %55
+		d d d
+		c2 e4
+		d2 c4
+		r \pa g g \pd
+		g r r %60
+		c g e
+		c c c
+		c r r\fermata \bar "|." %63 finis
+	}
+}

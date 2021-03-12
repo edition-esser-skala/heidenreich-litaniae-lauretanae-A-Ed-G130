@@ -214,3 +214,68 @@ SalusFagottoI = {
 		d2.\fermata \bar "||" %66 finis
 	}
 }
+
+ReginaFagottoI = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoRegina
+		c'4\f c c
+		e4. d8 c h
+		a4 a a
+		c4. h8 a g
+		f4 d fis %5
+		g g, r
+		R2.*4 %10
+		d''4\f d d
+		d2.
+		d4 d d
+		f2.
+		e4 e e %15
+		d2.
+		c8 d c d c d
+		c h a h c a
+		d4 e \pao e,
+		a r c %20
+		e r e
+		c r e
+		f r d16( c h a)
+		gis2 a4
+		\pa d, e \pd e %25
+		\pao \mvTr a\p-\dolce a a8 e'
+		e4. f8( e d)
+		c8.( h16) a4 r8 e'
+		e4. f8( e d)
+		c8.( h16) a4 r %30
+		R2.*2
+		r4 e'( f)
+		r e( f)
+		R2. %35
+		r8 d( c b a g)
+		a4 b8.( c16) d4
+		R2.*2
+		a4\f r a %40
+		c r c
+		d r f
+		d r b
+		c2.
+		b4( a g) %45
+		\pao f r r
+		c8 e g c c, c'
+		c, f a c c, c'
+		g, h d g g, g'
+		e g d g c, g' %50
+		g,4 g' r
+		fis,8 fis' fis fis fis fis
+		g g g g g g
+		fis, fis' fis fis fis fis
+		g g g g g g %55
+		f!4 r8 f f f
+		e4 r8 e e e
+		g2 g4
+		a g g,
+		c r r %60
+		c' g e
+		c c c
+		c r r\fermata \bar "|." %63 finis
+	}
+}

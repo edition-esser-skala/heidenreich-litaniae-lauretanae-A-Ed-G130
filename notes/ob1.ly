@@ -195,3 +195,52 @@ SalusOboeI = {
 		g2.\fermata \bar "||" %66 finis
 	}
 }
+
+ReginaOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		\pa c'4\f c c
+		e r r
+		a a a
+		c4. h8 a g
+		f4 d fis %5
+		g g r
+		R2.*4 %10
+		g4\f g g
+		h2.
+		gis4 gis gis
+		h2.
+		\pao a4 a a %15
+		a2.
+		a4 a a
+		a2.
+		f4 c h
+		\pao a r r %20
+		R2.*12 %32
+		c2.~\p
+		c
+		R2.*3 %37
+		f2.(\p
+		e
+		f4) r r %40
+		R2.*6 %46
+		g4\f g g
+		a2.
+		h
+		c4 f, e %50
+		e d r
+		a' a a
+		h r r
+		a a a
+		h r r %55
+		h2.(
+		c
+		h2 c8 g)
+		f4 e d
+		\pao c r r %60
+		c'-! g-! e-!
+		c-! c-! c-!
+		c-! r r\fermata \bar "|." %63 finis
+	}
+}

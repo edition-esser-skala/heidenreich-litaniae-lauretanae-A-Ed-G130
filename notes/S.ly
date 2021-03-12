@@ -384,6 +384,88 @@ SalusSopranoLyrics = \lyricmode {
 	bis. %62 finis
 }
 
+ReginaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoRegina
+		\mvTr c'4\fE^\tuttiE c c
+		e4.( d8) c([ h)]
+		a4 a a
+		c4.( h8) a([ g)]
+		f4 d fis %5
+		g g r
+		d'\p d \appoggiatura fis16 e8([ d)]
+		d4 d r
+		d d \appoggiatura fis16 e8([ d)]
+		d4 d r %10
+		h\f h h
+		h2 h4
+		h h r
+		h h h8 h
+		a2 a4 %15
+		a a r
+		e'8([ f)] e([ f)] e([ f)]
+		e([ d c d)] e e
+		d4( c h)
+		a r r %20
+		R2.*26 %46
+		c4\f c c
+		c4. c8 c c
+		h4 h h
+		c( f) e %50
+		e8. e16 d4 r
+		d d d
+		d d r
+		d d d
+		d d r %55
+		h h h
+		c2 c8 c
+		d4( f) e
+		d( c h)
+		c r r %60
+		R2.*2
+		R2.\fermata \bar "|." %63 finis
+	}
+}
+
+ReginaSopranoLyrics = \lyricmode {
+	Re -- gi -- na
+	An -- ge --
+	lo -- rum, re --
+	gi -- na
+	Pa -- tri -- ar -- %5
+	cha -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, %10
+	re -- gi -- na
+	Pro -- phe --
+	ta -- rum,
+	re -- gi -- na A --
+	po -- sto -- %15
+	lo -- rum,
+	o -- ra pro
+	no -- bis, pro
+	no --
+	bis. %20
+
+	Re -- gi -- na %47
+	Vir -- gi -- num, re --
+	gi -- na San --
+	cto -- rum %50
+	o -- mni -- um,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, %55
+	o -- ra pro
+	no -- bis, o --
+	ra __ pro
+	no --
+	bis. %60 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

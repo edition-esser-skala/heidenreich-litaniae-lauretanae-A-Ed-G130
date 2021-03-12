@@ -232,3 +232,73 @@ SalusViolaI = {
 		d2.\fermata \bar "||" %66 finis
 	}
 }
+
+ReginaViolaI = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 3/4 \tempoRegina
+		c,8\f c' c c c c
+		e e e d c h
+		a a a a a a
+		c c c h a g
+		f f d d fis fis %5
+		g4 g' r
+		\pa a,2.(\p
+		g
+		a
+		g2) \pd r4 %10
+		<h d>8\f q q q q q
+		q q q q q q
+		q q q q q q
+		f' f f f f f
+		f a a a a a %15
+		a a a a a a
+		a a a a a a
+		a a a a a a,
+		d h e d e e,
+		a4 r e' %20
+		e r e
+		e r e
+		d r d
+		h2 c4
+		d e e, %25
+		\pao a8 a\p a a a a
+		r h h h h h
+		r a a a a a
+		r h h h h h
+		r a a a c c %30
+		r d d d d d
+		r b b b b b
+		b2 a4
+		b2 a4
+		r8 a\sfp b a g f %35
+		e2.
+		f4 d' b
+		r8 c c c c c
+		r b b b b b
+		a4\f r c %40
+		c r c
+		d r f
+		f r \pao b,
+		c2.
+		d4 c c %45
+		f8-! a-! g-! f-! e-! d-!
+		c g'4 g g8
+		<f a> q4 q q8
+		<d h'> q4 q q8
+		c'4 g g %50
+		g g, r
+		fis'8 fis fis fis fis fis
+		g g g g g g
+		fis fis fis fis fis fis
+		g g g g g g %55
+		d'16 d d d d d d d d d d d
+		c c c c c c c c c c c c
+		\pa g g g g \pd g g g g g g g g
+		f8( g16 a) g4 f
+		e r r %60
+		c g e
+		c c c
+		c r r\fermata \bar "|." %63 finis
+	}
+}

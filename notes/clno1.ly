@@ -92,3 +92,43 @@ SanctaClarinoI = {
 		R2\fermata \bar "|." %102 finis
 	}
 }
+
+ReginaClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		c4\f c c
+		e r r
+		R2.
+		c4 r r
+		R2. %5
+		g'4 g r
+		R2.*4 %10
+		d'4\fE d d
+		d2.
+		R2.*2
+		e4 e e %15
+		\pao d2 r4
+		R2.*2
+		r4 e, e
+		e r r %20
+		R2.*26 %46
+		c4\f c c
+		c8 c16 c c8 c c c
+		g'4 g g
+		g8 g16 g g8 g g g %50
+		\pao g4 g r
+		\pa d'8 d d d d d \pd
+		d4 r r
+		\pa d8 d d d d d \pd
+		d4 r r %55
+		d d d
+		c2 e4
+		d2 c4
+		r \pa g g \pd
+		g r r %60
+		c g e
+		c c c
+		c r r\fermata \bar "|." %63 finis
+	}
+}

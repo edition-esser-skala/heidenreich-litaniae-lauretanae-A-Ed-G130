@@ -233,6 +233,76 @@ SalusViolinoI = {
 	}
 }
 
+ReginaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		c16\f c' c c c c c c c c c c
+		e e e e e e d d c c h h
+		a a a a a a a a a a a a
+		c c c c c c h h a a g g
+		f f f f d d d d fis fis fis fis %5
+		g4 g' r
+		\mvTr d\p-\dolce d \appoggiatura fis16 \once \slurDashed e8( d)
+		d4-. d-. \appoggiatura a'16 \once \slurDashed g8( fis16 e)
+		d4-. d-. \appoggiatura fis16 \once \slurDashed e8( d)
+		d4 r8 g,-!\f h-! d-! %10
+		g16 g g g g g g g g g g g
+		h h g g d d g g h h g g
+		<gis h,> q q q q q q q q q q q
+		h h gis gis f f gis gis h h gis gis
+		a a e e c c e e a a e e %15
+		a a f f d d f f a a f f
+		e e f f e e f f e e f f
+		e e d d c c d d e e c c
+		f8 d c a' h, gis'
+		a a,-! a-! a-! a16( h c d) %20
+		e8 e, e' e e16( d c h)
+		a8 a'-! a-! a-! a16( g f e)
+		f8 f, d' d d16( c h a)
+		gis8 e gis( a16 h) a8 e
+		f h e, a h, gis' %25
+		a8 e\p e e e e
+		r e4 f8 e[ e]
+		r e e e e e
+		r e4 f8 e[ e]
+		r e e e e a %30
+		r b b b b b
+		r d d d d d
+		r c( \grace e16 d8 c c[ f])
+		r c( \grace e16 d8 c c[ f])
+		d2. %35
+		d8 d c b a g
+		a4 b8.( c16) d4
+		c8 f f f f f
+		r e e e e e
+		f\f f, f f f16( g a b) %40
+		c8 c, c' c c16( b a g)
+		f8 f' f f f16( e d cis)
+		d8 d, b' b b16( a g f)
+		e8 c e f16 g f8 c
+		b g' a, f' g, e' %45
+		f-! a-! g-! f-! e-! d-!
+		c16 c' c c c c g g e e g g
+		c, c' c c c c a a f f a a
+		g g' g g g g d d h h g g
+		c4 f e %50
+		e d r
+		d'8 d, r d' d, d'
+		c16( h a g) fis( g fis g) a( g fis e)
+		d4 r8 d' d, d'
+		c16( h a g) fis( g fis g) a( g fis g) %55
+		h8 d, r h' d, h'
+		c c, r c' c, c'
+		d4 f, e
+		d8( e16 f) c4 h
+		c16 c' c c g g g g e e e e %60
+		c c c c g g g g e e e e
+		c( h c h c h c h c h c h)
+		c4 r r\fermata \bar "|." %63 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

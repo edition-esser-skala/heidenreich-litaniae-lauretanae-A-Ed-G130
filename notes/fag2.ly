@@ -208,3 +208,61 @@ SalusFagottoII = {
 		g2.\fermata \bar "||" %66 finis
 	}
 }
+
+ReginaFagottoII = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoRegina
+		c'4\f c c
+		e4. d8 c h
+		a4 a a
+		c4. h8 a g
+		f4 d fis %5
+		g g, r
+		R2.*4 %10
+		h'4\f h h
+		h2.
+		h4 h h
+		d2.
+		c4 c c %15
+		d2 d,4
+		c8 d c d c d
+		c h a h c a
+		d4 e e
+		a, r a' %20
+		h r h
+		a r c
+		d r f,
+		e d c
+		d e e, %25
+		a r r
+		R2.*6 %32
+		r4 \once \slurDashed b'(\p a)
+		r \once \slurDashed b( a)
+		R2.*5 %39
+		f4\f r f %40
+		g r g
+		f r c'
+		b r d,
+		e2 f8 a
+		g4( f e) %45
+		f r r
+		c8 e g c c, c'
+		c, f a c c, c'
+		g, h d g g, g'
+		e g d g c, g' %50
+		g,4 g' r
+		fis,8 fis' fis fis fis fis
+		g g g g g g
+		fis, fis' fis fis fis fis
+		g g g g g g %55
+		f!4 r8 f f f
+		e4 r8 e c c
+		h4 g c
+		f g g,
+		c r r %60
+		c' g e
+		c c c
+		c r r\fermata \bar "|." %63 finis
+	}
+}

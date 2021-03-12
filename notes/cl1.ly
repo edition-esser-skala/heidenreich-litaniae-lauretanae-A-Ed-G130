@@ -125,3 +125,48 @@ SanctaClarinettoI = {
 		R\fermata \bar "|." %102 finis
 	}
 }
+
+ReginaClarinettoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		c'4\f c c
+		e4. d8 c h
+		a4 a a
+		c4. h8 a g
+		f4 d fis %5
+		g g' r
+		\mvTr d\p-\dolce d \appoggiatura fis16 e8( d)
+		d4 d \appoggiatura a'16 g8( fis16 e)
+		d4 d \appoggiatura fis16 e8( d)
+		d4 r8 g,-!\f h-! d-! %10
+		g4 g g
+		h8 g d g h4
+		gis gis gis
+		h8 gis f gis h4
+		a2 e4 %15
+		f2 f4
+		e8( f e f e f)
+		e( d c d) e4
+		d c h
+		\pao a r r %20
+		R2.*26 %46
+		c'4\f c c
+		c2.
+		h4 h h
+		c f, e %50
+		e d r
+		a' a a
+		h r r
+		a a a
+		h r r %55
+		g2.~
+		g~
+		g
+		f4 e d
+		\pao c r r %60
+		c'-! g-! e-!
+		c-! c-! c-!
+		c-! r r\fermata \bar "|." %63 finis
+	}
+}

@@ -373,6 +373,88 @@ SalusBassoLyrics = \lyricmode {
 	bis. %62 finis
 }
 
+ReginaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \autoBeamOff \tempoRegina
+		\mvTr c'4\fE^\tuttiE c c
+		e4.( d8) c([ h)]
+		a4 a a
+		c4.( h8) a([ g)]
+		f4 d fis %5
+		g g r
+		fis\p fis fis
+		g g r
+		fis fis fis
+		g g r %10
+		g\f g g
+		f!2 f4
+		e e r
+		d d d8 d
+		c2 c4 %15
+		d d r
+		c8([ d)] c([ d)] c([ d)]
+		c([ h a h)] c a
+		d4( e2)
+		a,4 r r %20
+		R2.*26 %46
+		c'4\f c c
+		c4. c8 c c
+		g4 g g
+		e( d) c %50
+		g'8. g16 g,4 r
+		fis' fis fis
+		g g, r
+		fis' fis fis
+		g g, r %55
+		f'! f f
+		e2 c8 c
+		h2 c4
+		f( g2)
+		c,4 r r %60
+		R2.*2
+		R2.\fermata \bar "|." %63 finis
+	}
+}
+
+ReginaBassoLyrics = \lyricmode {
+	Re -- gi -- na
+	An -- ge --
+	lo -- rum, re --
+	gi -- na
+	Pa -- tri -- ar -- %5
+	cha -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, %10
+	re -- gi -- na
+	Pro -- phe --
+	ta -- rum,
+	re -- gi -- na A --
+	po -- sto -- %15
+	lo -- rum,
+	o -- ra pro
+	no -- bis, pro
+	no --
+	bis. %20
+
+	Re -- gi -- na %47
+	Vir -- gi -- num, re --
+	gi -- na San --
+	cto -- rum %50
+	o -- mni -- um,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, %55
+	o -- ra pro
+	no -- bis, o --
+	ra pro
+	no --
+	bis. %60 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

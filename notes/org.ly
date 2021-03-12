@@ -454,6 +454,142 @@ SalusBassFigures = \figuremode {
 	r %66 finis
 }
 
+ReginaOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoRegina
+		\mvTr c'8\fE-\tutti-\unisono c c c c c
+		e e, e' d c h
+		a a a a a a
+		c c, c' h a g
+		f f d d fis fis %5
+		g4 g, r
+		fis'2.\p
+		g
+		fis
+		g4 g, r %10
+		g'8\f g g g g g
+		f! f f f f f
+		e e e e e e
+		d d d d d d
+		c c c c c c %15
+		d d d d d d
+		c d c d c d
+		c h a h c a
+		d h e d e e,
+		a4 r a'-\solo %20
+		gis r gis
+		a r c,
+		d r f
+		e d c
+		d e e, %25
+		a r a'\p
+		gis r gis
+		a r a
+		gis r gis
+		a r c %30
+		d r d
+		b r b
+		g2 f4
+		g2 f4
+		r8 a\sfp b a g f %35
+		e2.
+		f4 d b
+		c r r
+		c r r
+		f,\f r f' %40
+		e r e
+		d r a
+		b r d
+		c b a
+		b c c %45
+		f8-! a-! g-! f-! e-! d-!
+		c-\tutti e g c c, c'
+		c, f a c c, c'
+		g, h d g g, g'
+		e g d g c, g' %50
+		g,4 g' r
+		fis8 fis fis fis fis fis
+		g g g g g g
+		fis fis fis fis fis fis
+		g g g g g g %55
+		f! f f f f f
+		e e e e c c
+		h h g g c c
+		f4 g g,
+		c r r %60
+		c'-! g-! e-!
+		c-! c-! c-!
+		c-! r r\fermata \bar "|." %63 finis
+	}
+}
+
+ReginaBassFigures = \figuremode {
+	<_!>2.
+	r
+	r
+	r
+	r %5
+	r
+	<6 5>
+	r
+	q
+	r %10
+	<5>
+	<4 2>
+	<7 _+>
+	<6 4+ 3>
+	<6> %15
+	<5>
+	<6 3>8 \bassFigureExtendersOn <6 3\!> q q q q
+	q q q q q q \bassFigureExtendersOff
+	<6 5> <\t \t> <6 4> <\t \t> <5 _+>4
+	r2. %20
+	<6>2 <\t>4
+	r2 <6>4
+	<_!>2 <6>4
+	<_+> <\t> <6>
+	q <6 4> <5 _+> %25
+	r2.
+	\bo <6 [5]>2 \bc <\t [\t]>4
+	r2.
+	\bo <6 [5]>2 \bc <\t [\t]>4
+	r2 <6>4 %30
+	<6->2 <\t>4
+	<5>2.
+	<6 4 _->2 <5>4
+	<6 4 _->2 <5>4
+	<6 4>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff %35
+	<7>4 <6> <5->
+	<3> <6-> <5 3>
+	<6 4>2.
+	<7- 3>
+	r %40
+	<6>2 <\t>4
+	<_!>2 <6>4
+	<5>2 <6->4
+	<5> <\t> <6>
+	q <6 4> <5 3> %45
+	r2.
+	r
+	<6 4>2 \bassFigureExtendersOn q8 q
+	<7>2 q8 q \bassFigureExtendersOff
+	<6> <\t> <6> <\t> <5 3> <\t \t> %50
+	<6 4>4 <5 3>2
+	<6>2.
+	<5>
+	<6>
+	<5> %55
+	<4 2>
+	<6>
+	<5>4 <\t>2
+	<6>4 <6 4> <7 3>
+	r2. %60
+	r
+	r
+	r %63 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

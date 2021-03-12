@@ -79,3 +79,36 @@ SanctaTimpani = {
 		R2\fermata \bar "|." %102 finis
 	}
 }
+
+ReginaTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoRegina
+		c2.\fE\trill
+		R2.*2
+		c2 r4
+		R2. %5
+		g4 g r
+		R2.*4 %10
+		g4\fE g g
+		g2.\trill
+		R2.*34 %46
+		c4\f c c
+		c2.\trill
+		g4 g g
+		g2.\trill %50
+		g4-! g-! r
+		R2.
+		g4 r r
+		R2.
+		g4 r r %55
+		g g g
+		c2 c4
+		g2 c4
+		r g g
+		c r r %60
+		c r r
+		c c c
+		c r r\fermata \bar "|." %63 finis
+	}
+}

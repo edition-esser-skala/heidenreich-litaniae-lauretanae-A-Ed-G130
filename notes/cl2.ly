@@ -109,3 +109,48 @@ SanctaClarinettoII = {
 		R\fermata \bar "|." %102 finis
 	}
 }
+
+ReginaClarinettoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		c'4\f c c
+		e4. d8 c h
+		a4 a a
+		c4. h8 a g
+		f4 d fis %5
+		g g' r
+		a,2.(\p
+		h
+		a
+		h4) r8 g-!\f h-! d-! %10
+		h4 h h
+		d2.
+		h4 h h
+		gis2.
+		a2 a4 %15
+		a2 a4
+		a a a
+		a2 a4
+		h a gis
+		a r r %20
+		R2.*26 %46
+		c4\f c c
+		c2.
+		f2 d4
+		c h c %50
+		c h r
+		d d d
+		g r r
+		d d d
+		g r r %55
+		h,2.
+		c2 e4
+		f d e8 c
+		a4 c h
+		c r r %60
+		c-! g-! e-!
+		c-! c-! c-!
+		c-! r r\fermata \bar "|." %63 finis
+	}
+}

@@ -430,6 +430,120 @@ SalusTenoreLyrics = \lyricmode {
 	bis. %62 finis
 }
 
+ReginaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \autoBeamOff \tempoRegina
+		\mvTr c4\fE^\tuttiE c c
+		e4.( d8) c([ h)]
+		a4 a a
+		c4.( h8) a([ g)]
+		f4 d fis %5
+		g g r
+		c\p c c
+		h h r
+		c c c
+		h h r %10
+		d\f d d
+		d2 d4
+		d d r
+		f f f8 f
+		e2 e4 %15
+		d d r
+		a a a
+		a2 a8 c
+		h4( a gis)
+		a r r %20
+		R2.*5 %25
+		\mvTr a4\pE^\solo a a8 e'
+		e4.( f8) e([ d)]
+		c8. h16 a4 r8 e'
+		e4. f8 e d
+		c8.([^\critnote h16)] a4 a %30
+		b2 b4
+		d d d
+		c2.~
+		c2 c8 c
+		d2 d4 %35
+		d c8([ b)] a([ g)]
+		a4( b) \appoggiatura c8 d4
+		c4.( d16[ c)] b8 a
+		\afterGrace g2.\trill { f16[ g] }
+		f4 r r %40
+		R2.*6 %46
+		\mvTr e'4\fE^\tutti e e
+		f4. f8 f f
+		d4 d d
+		c( h) c %50
+		c8. c16 h4 r
+		d d d
+		h g r
+		d' d d
+		h g r %55
+		d' d d
+		c2 c8 e
+		d2 c4
+		a( g2)
+		g4 r r %60
+		R2.*2
+		R2.\fermata \bar "|." %63 finis
+	}
+}
+
+ReginaTenoreLyrics = \lyricmode {
+	Re -- gi -- na
+	An -- ge --
+	lo -- rum, re --
+	gi -- na
+	Pa -- tri -- ar -- %5
+	cha -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, %10
+	re -- gi -- na
+	Pro -- phe --
+	ta -- rum,
+	re -- gi -- na A --
+	po -- sto -- %15
+	lo -- rum,
+	o -- ra pro
+	no -- bis, pro
+	no --
+	bis. %20
+
+	Re -- gi -- na, re -- %26
+	gi -- na
+	Mar -- ty -- rum, re --
+	gi -- na Con -- fes --
+	so -- rum, o -- %30
+	ra pro
+	no -- bis, pro
+	no --
+	bis, o --
+	ra pro %35
+	no -- bis, o --
+	ra __ pro
+	no -- bis, pro
+	no --
+	bis. %40
+
+	Re -- gi -- na %47
+	Vir -- gi -- num, re --
+	gi -- na San --
+	cto -- rum %50
+	o -- mni -- um,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, %55
+	o -- ra pro
+	no -- bis, o --
+	ra pro
+	no --
+	bis. %60 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

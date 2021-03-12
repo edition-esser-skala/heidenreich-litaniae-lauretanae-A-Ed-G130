@@ -232,3 +232,73 @@ SalusViolinoII = {
 		h2.\fermata \bar "|." %66 finis
 	}
 }
+
+ReginaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		c16\f c' c c c c c c c c c c
+		e e e e e e d d c c h h
+		a a a a a a a a a a a a
+		c c c c c c h h a a g g
+		f f f f d d d d fis fis fis fis %5
+		g4 <h d,> r
+		<d, a>2.~\p
+		<d h>~
+		<d a>~
+		<d h>2 r4 %10
+		g'16\f g g g g g g g g g g g
+		h h g g d d g g h h g g
+		<gis h,> q q q q q q q q q q q
+		h h gis gis f f gis gis h h gis gis
+		a a e e c c e e a a e e %15
+		a a f f d d f f a a f f
+		<a a,> q q q q q q q q q q q
+		<a a,> q q q q q q q q q q q
+		f8 d c a' h, gis'
+		a,4 r c, %20
+		h r e
+		c r a'
+		a r d,
+		e2 e4
+		d c h %25
+		c8 c\p c c c c
+		r d d d d d
+		r c c c c c
+		r d d d d d
+		r c c c e e %30
+		r f f f f f
+		r f f f f f
+		e2 f4
+		e2 f4
+		f2. %35
+		g2 c,4
+		c f2
+		f8 a a a a a
+		r g g g g g
+		f\f f f f \once \slurDashed f16( g a b) %40
+		c8 c, c' c \once \slurDashed c16( b a g)
+		f8 f' f f \once \slurDashed f16( e d cis)
+		d8 d, b' b b16( a g f)
+		e8 c e f16 g f8 c
+		b g' a, f' g, e' %45
+		f-! a-! g-! f-! e-! d-!
+		c16 c' c c c c g g e e g g
+		c, c' c c c c a a f f a a
+		h g' g g g g d d h h g g
+		c4 <h g> <c g> %50
+		c h r
+		<a d,>8 q q q q q
+		<h d,> q q q q q
+		<a d,> q q q q q
+		<h d,> q q q q q %55
+		g16 g' g g g g g g g g g g
+		g, g' g g g g g g e e e e
+		f f f f d d d d c c c c
+		a8( g16 f) e4 d
+		c16 c' c c g g g g e e e e %60
+		c c c c g' g g g e e e e
+		c( h c h c h c h c h c h)
+		c4 r r\fermata \bar "|." %63 finis
+	}
+}

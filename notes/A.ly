@@ -384,6 +384,88 @@ SalusAltoLyrics = \lyricmode {
 	bis. %62 finis
 }
 
+ReginaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoRegina
+		\mvTr c'4\fE^\tuttiE c c
+		e4.( d8) c([ h)]
+		a4 a a
+		c4.( h8) a([ g)]
+		f4 d fis %5
+		g g r
+		a\p a a
+		g g r
+		a a a
+		g g r %10
+		g\f g g
+		g2 g4
+		gis gis r
+		gis gis gis8 gis
+		a2 a4 %15
+		f f r
+		a a a
+		a2 a8 a
+		f4( e2)
+		e4 r r %20
+		R2.*26 %46
+		g4\f g g
+		a4. a8 a a
+		g4 g g
+		g2 g4 %50
+		g8. g16 g4 r
+		a a a
+		h h r
+		a a a
+		h h r %55
+		g g g
+		g2 g8 g
+		g2 g4
+		f( e d)
+		e r r %60
+		R2.*2
+		R2.\fermata \bar "|." %63 finis
+	}
+}
+
+ReginaAltoLyrics = \lyricmode {
+	Re -- gi -- na
+	An -- ge --
+	lo -- rum, re --
+	gi -- na
+	Pa -- tri -- ar -- %5
+	cha -- rum,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, %10
+	re -- gi -- na
+	Pro -- phe --
+	ta -- rum,
+	re -- gi -- na A --
+	po -- sto -- %15
+	lo -- rum,
+	o -- ra pro
+	no -- bis, pro
+	no --
+	bis. %20
+
+	Re -- gi -- na %47
+	Vir -- gi -- num, re --
+	gi -- na San --
+	cto -- rum %50
+	o -- mni -- um,
+	o -- ra pro
+	no -- bis,
+	o -- ra pro
+	no -- bis, %55
+	o -- ra pro
+	no -- bis, o --
+	ra pro
+	no --
+	bis. %60 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
