@@ -41,7 +41,7 @@ KyrieTimpani = {
 		c r r
 		r g g
 		c c c
-		c r r\fermata \bar "|.8" %44 finis
+		c r r\fermata \bar "|." %44 finis
 	}
 }
 
