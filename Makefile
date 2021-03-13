@@ -1,5 +1,5 @@
 # change the following variables according to the current project
-project = Haidenreich_Litaniae_lauretanae
+project = Heidenreich_Litaniae_lauretanae
 notes = ob1 ob2 cl1 cl2 fag1 fag2 cor1 cor2 clno1 clno2 timp vl1 vl2 vla1 vla2 S A T B org
 scores = full_score ob1 ob2 cl1 cl2 fag1 fag2 cor12 ottoni vl1 vl2 vla1 vla2 coro b org
 
