@@ -1,17 +1,21 @@
-composer: Heidenreich, Joseph
-title: Litaniae lauretanae
-id: (A-Ed G 130)
+composer:
+  last: Heidenreich
+  first: Joseph
+title: Litaniæ lauretanæ
 genre: litany
-scoring: T (solo), S, A, T, B (coro), 2 ob, 2 cl (C), 2 fag, 2 cor (C), 2 clno (C), timp (G–G), 2 vl, 2 vla, b, org
+scoring: T (solo), S, A, T, B (coro), 2 ob, 2 cl (C), 2 fag,\\2 cor (C), 2 clno (C), timp (G–G), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: G 130
-    type: manuscript copy
-    date: unknown
     rism: 600038358
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/306.html
-github: heidenreich-litaniae-lauretanae-A-Ed-G130
+    license: public domain
+    principal: true
 imslp: Litaniae_lauretanae_(Heidenreich,_Joseph)
-notes:
-
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
